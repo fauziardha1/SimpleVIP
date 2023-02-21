@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030F69F429A49A23002956A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030F69F329A49A23002956A8 /* AppDelegate.swift */; };
+		030F69F629A49A23002956A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030F69F529A49A23002956A8 /* SceneDelegate.swift */; };
+		030F69F829A49A23002956A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030F69F729A49A23002956A8 /* ViewController.swift */; };
+		030F69FB29A49A23002956A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030F69F929A49A23002956A8 /* Main.storyboard */; };
+		030F69FE29A49A23002956A8 /* SimpleVIP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 030F69FC29A49A23002956A8 /* SimpleVIP.xcdatamodeld */; };
+		030F6A0029A49A26002956A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030F69FF29A49A26002956A8 /* Assets.xcassets */; };
+		030F6A0329A49A26002956A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030F6A0129A49A26002956A8 /* LaunchScreen.storyboard */; };
+		030F6A0E29A49A27002956A8 /* SimpleVIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030F6A0D29A49A27002956A8 /* SimpleVIPTests.swift */; };
+		030F6A1829A49A27002956A8 /* SimpleVIPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030F6A1729A49A27002956A8 /* SimpleVIPUITests.swift */; };
+		030F6A1A29A49A27002956A8 /* SimpleVIPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030F6A1929A49A27002956A8 /* SimpleVIPUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		030F6A0A29A49A27002956A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 030F69E829A49A23002956A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 030F69EF29A49A23002956A8;
+			remoteInfo = SimpleVIP;
+		};
+		030F6A1429A49A27002956A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 030F69E829A49A23002956A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 030F69EF29A49A23002956A8;
+			remoteInfo = SimpleVIP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030F69F029A49A23002956A8 /* SimpleVIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleVIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		030F69F329A49A23002956A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		030F69F529A49A23002956A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		030F69F729A49A23002956A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		030F69FA29A49A23002956A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		030F69FD29A49A23002956A8 /* SimpleVIP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleVIP.xcdatamodel; sourceTree = "<group>"; };
+		030F69FF29A49A26002956A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		030F6A0229A49A26002956A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		030F6A0429A49A26002956A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030F6A0929A49A27002956A8 /* SimpleVIPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleVIPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		030F6A0D29A49A27002956A8 /* SimpleVIPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleVIPTests.swift; sourceTree = "<group>"; };
+		030F6A1329A49A27002956A8 /* SimpleVIPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleVIPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		030F6A1729A49A27002956A8 /* SimpleVIPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleVIPUITests.swift; sourceTree = "<group>"; };
+		030F6A1929A49A27002956A8 /* SimpleVIPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleVIPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		030F69ED29A49A23002956A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030F6A0629A49A27002956A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030F6A1029A49A27002956A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030F69E729A49A23002956A8 = {
+			isa = PBXGroup;
+			children = (
+				030F69F229A49A23002956A8 /* SimpleVIP */,
+				030F6A0C29A49A27002956A8 /* SimpleVIPTests */,
+				030F6A1629A49A27002956A8 /* SimpleVIPUITests */,
+				030F69F129A49A23002956A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		030F69F129A49A23002956A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				030F69F029A49A23002956A8 /* SimpleVIP.app */,
+				030F6A0929A49A27002956A8 /* SimpleVIPTests.xctest */,
+				030F6A1329A49A27002956A8 /* SimpleVIPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		030F69F229A49A23002956A8 /* SimpleVIP */ = {
+			isa = PBXGroup;
+			children = (
+				030F69F329A49A23002956A8 /* AppDelegate.swift */,
+				030F69F529A49A23002956A8 /* SceneDelegate.swift */,
+				030F69F729A49A23002956A8 /* ViewController.swift */,
+				030F69F929A49A23002956A8 /* Main.storyboard */,
+				030F69FF29A49A26002956A8 /* Assets.xcassets */,
+				030F6A0129A49A26002956A8 /* LaunchScreen.storyboard */,
+				030F6A0429A49A26002956A8 /* Info.plist */,
+				030F69FC29A49A23002956A8 /* SimpleVIP.xcdatamodeld */,
+			);
+			path = SimpleVIP;
+			sourceTree = "<group>";
+		};
+		030F6A0C29A49A27002956A8 /* SimpleVIPTests */ = {
+			isa = PBXGroup;
+			children = (
+				030F6A0D29A49A27002956A8 /* SimpleVIPTests.swift */,
+			);
+			path = SimpleVIPTests;
+			sourceTree = "<group>";
+		};
+		030F6A1629A49A27002956A8 /* SimpleVIPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				030F6A1729A49A27002956A8 /* SimpleVIPUITests.swift */,
+				030F6A1929A49A27002956A8 /* SimpleVIPUITestsLaunchTests.swift */,
+			);
+			path = SimpleVIPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		030F69EF29A49A23002956A8 /* SimpleVIP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030F6A1D29A49A27002956A8 /* Build configuration list for PBXNativeTarget "SimpleVIP" */;
+			buildPhases = (
+				030F69EC29A49A23002956A8 /* Sources */,
+				030F69ED29A49A23002956A8 /* Frameworks */,
+				030F69EE29A49A23002956A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleVIP;
+			productName = SimpleVIP;
+			productReference = 030F69F029A49A23002956A8 /* SimpleVIP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		030F6A0829A49A27002956A8 /* SimpleVIPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030F6A2029A49A27002956A8 /* Build configuration list for PBXNativeTarget "SimpleVIPTests" */;
+			buildPhases = (
+				030F6A0529A49A27002956A8 /* Sources */,
+				030F6A0629A49A27002956A8 /* Frameworks */,
+				030F6A0729A49A27002956A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				030F6A0B29A49A27002956A8 /* PBXTargetDependency */,
+			);
+			name = SimpleVIPTests;
+			productName = SimpleVIPTests;
+			productReference = 030F6A0929A49A27002956A8 /* SimpleVIPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		030F6A1229A49A27002956A8 /* SimpleVIPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030F6A2329A49A27002956A8 /* Build configuration list for PBXNativeTarget "SimpleVIPUITests" */;
+			buildPhases = (
+				030F6A0F29A49A27002956A8 /* Sources */,
+				030F6A1029A49A27002956A8 /* Frameworks */,
+				030F6A1129A49A27002956A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				030F6A1529A49A27002956A8 /* PBXTargetDependency */,
+			);
+			name = SimpleVIPUITests;
+			productName = SimpleVIPUITests;
+			productReference = 030F6A1329A49A27002956A8 /* SimpleVIPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		030F69E829A49A23002956A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					030F69EF29A49A23002956A8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					030F6A0829A49A27002956A8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 030F69EF29A49A23002956A8;
+					};
+					030F6A1229A49A27002956A8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 030F69EF29A49A23002956A8;
+					};
+				};
+			};
+			buildConfigurationList = 030F69EB29A49A23002956A8 /* Build configuration list for PBXProject "SimpleVIP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 030F69E729A49A23002956A8;
+			productRefGroup = 030F69F129A49A23002956A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				030F69EF29A49A23002956A8 /* SimpleVIP */,
+				030F6A0829A49A27002956A8 /* SimpleVIPTests */,
+				030F6A1229A49A27002956A8 /* SimpleVIPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		030F69EE29A49A23002956A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030F6A0329A49A26002956A8 /* LaunchScreen.storyboard in Resources */,
+				030F6A0029A49A26002956A8 /* Assets.xcassets in Resources */,
+				030F69FB29A49A23002956A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030F6A0729A49A27002956A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030F6A1129A49A27002956A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		030F69EC29A49A23002956A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030F69F829A49A23002956A8 /* ViewController.swift in Sources */,
+				030F69F429A49A23002956A8 /* AppDelegate.swift in Sources */,
+				030F69F629A49A23002956A8 /* SceneDelegate.swift in Sources */,
+				030F69FE29A49A23002956A8 /* SimpleVIP.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030F6A0529A49A27002956A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030F6A0E29A49A27002956A8 /* SimpleVIPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030F6A0F29A49A27002956A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030F6A1A29A49A27002956A8 /* SimpleVIPUITestsLaunchTests.swift in Sources */,
+				030F6A1829A49A27002956A8 /* SimpleVIPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		030F6A0B29A49A27002956A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 030F69EF29A49A23002956A8 /* SimpleVIP */;
+			targetProxy = 030F6A0A29A49A27002956A8 /* PBXContainerItemProxy */;
+		};
+		030F6A1529A49A27002956A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 030F69EF29A49A23002956A8 /* SimpleVIP */;
+			targetProxy = 030F6A1429A49A27002956A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		030F69F929A49A23002956A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030F69FA29A49A23002956A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		030F6A0129A49A26002956A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030F6A0229A49A26002956A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		030F6A1B29A49A27002956A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		030F6A1C29A49A27002956A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		030F6A1E29A49A27002956A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WJP849PN2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleVIP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fauzi.art.SimpleVIP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		030F6A1F29A49A27002956A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WJP849PN2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleVIP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fauzi.art.SimpleVIP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		030F6A2129A49A27002956A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WJP849PN2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fauzi.art.SimpleVIPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleVIP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleVIP";
+			};
+			name = Debug;
+		};
+		030F6A2229A49A27002956A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WJP849PN2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fauzi.art.SimpleVIPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleVIP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleVIP";
+			};
+			name = Release;
+		};
+		030F6A2429A49A27002956A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WJP849PN2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fauzi.art.SimpleVIPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleVIP;
+			};
+			name = Debug;
+		};
+		030F6A2529A49A27002956A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WJP849PN2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fauzi.art.SimpleVIPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleVIP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		030F69EB29A49A23002956A8 /* Build configuration list for PBXProject "SimpleVIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030F6A1B29A49A27002956A8 /* Debug */,
+				030F6A1C29A49A27002956A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030F6A1D29A49A27002956A8 /* Build configuration list for PBXNativeTarget "SimpleVIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030F6A1E29A49A27002956A8 /* Debug */,
+				030F6A1F29A49A27002956A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030F6A2029A49A27002956A8 /* Build configuration list for PBXNativeTarget "SimpleVIPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030F6A2129A49A27002956A8 /* Debug */,
+				030F6A2229A49A27002956A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030F6A2329A49A27002956A8 /* Build configuration list for PBXNativeTarget "SimpleVIPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030F6A2429A49A27002956A8 /* Debug */,
+				030F6A2529A49A27002956A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		030F69FC29A49A23002956A8 /* SimpleVIP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				030F69FD29A49A23002956A8 /* SimpleVIP.xcdatamodel */,
+			);
+			currentVersion = 030F69FD29A49A23002956A8 /* SimpleVIP.xcdatamodel */;
+			path = SimpleVIP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 030F69E829A49A23002956A8 /* Project object */;
+}
