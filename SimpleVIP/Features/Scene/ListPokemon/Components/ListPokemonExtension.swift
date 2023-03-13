@@ -2,7 +2,7 @@
 //  ListPokemonExtension.swift
 //  SimpleVIP
 //
-//  Created by Batm Admin on 21/02/23.
+//  Created by FauziArda on 21/02/23.
 //
 
 import Foundation

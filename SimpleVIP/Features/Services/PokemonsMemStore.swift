@@ -2,7 +2,7 @@
 //  PokemonsMemStore.swift
 //  SimpleVIP
 //
-//  Created by Batm Admin on 22/02/23.
+//  Created by FauziArda on 22/02/23.
 //
 
 import Foundation
